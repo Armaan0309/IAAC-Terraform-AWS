@@ -18,13 +18,23 @@ Created a Provider.tf for basic boiler plate regarding the region to be used and
 Created a variable.tf for using variables directly which includes the VPC CIDR Range.
 Created a main.tf file which has all the configuration to Automate the Process through Terraform.
 In the main.tf file, it consists of Information related to 
-## Subnet1
-## Subnet2
-## AWS internet gateway
-## Route tables for each subnet
-## Security Resource group for VPC with Two Ingress(SSH, HTTP) and Engress
-## S3 Storage Bucket
-## TWo EC2 Instances or Web Services with Static application code(userdata, userdata2)
-## Target Groups 
-## Load Balancers
+Subnet1
+Subnet2
+AWS internet gateway
+Route tables for each subnet
+Security Resource group for VPC with Two Ingress(SSH, HTTP) and Engress
+S3 Storage Bucket
+TWo EC2 Instances or Web Services with Static application code(userdata, userdata2)
+Target Groups 
+Load Balancers
+
+Copy and paste the IP address of Instances for Results.
+We can see the working of static websites deployed using Terraform on AWS.
+
+
+![Screenshot 2024-08-08 165523](https://github.com/user-attachments/assets/e40ffd81-c835-4a5d-b820-74656b7b8bf1)
+
+
+![Screenshot 2024-08-08 165532](https://github.com/user-attachments/assets/ac5f703e-5988-4165-85a3-03220db7cbb4)
+
 
